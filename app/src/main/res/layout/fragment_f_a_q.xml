@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q1. How does this app work? "
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#DD2C00"
+        android:textSize="13sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A1. This app works over internet and all the data in this app are only demo data."
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="13sp"
+        android:textColor="#A1000000"
+     />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#191B1A"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q2. Where does the data for this app come ? "
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#DD2C00"
+        android:textSize="13sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A2. All the data of this app will show from an API. It has some fixed amount of data which are only for illustration. "
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="13sp"
+        android:textColor="#A1000000"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#191B1A"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q3. Where does the registration data send? "
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#DD2C00"
+        android:textSize="13sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A3. When you register for this app, the registration data sends to the server, which is required for creating a future login. "
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="13sp"
+        android:textColor="#A1000000"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#191B1A"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q4. What happens when you order something ? "
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#DD2C00"
+        android:textSize="13sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A4. When you order any food from this app the data goes to server and after that nothing happens because all the data in this app is just for demo.  "
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="13sp"
+        android:textColor="#A1000000"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#191B1A"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment"
+    android:orientation="vertical"
+    android:background="@color/colorFood">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_newprofile"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:padding="5dp"
+        android:background="@drawable/edittextround"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/txtProfileMobiNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+91854554"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:padding="5dp"
+        android:background="@drawable/edittextround"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/txtProfileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:padding="5dp"
+        android:background="@drawable/edittextround"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/txtProfileAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:padding="5dp"
+        android:background="@drawable/edittextround"
+        android:textColor="#000"/>
+
+
+</LinearLayout>

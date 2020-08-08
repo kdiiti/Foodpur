@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ResetActivity"
+    android:orientation="vertical"
+    android:background="@color/colorFood">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="serif"
+        android:text="Enter the received OTP Below :"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/etOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="OTP (4 characters)"
+        android:textColor="#000"
+        android:textColorHint="#48000000"
+        android:background="@drawable/edittextround"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:inputType="phone"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:textAppearance="?attr/textAppearanceCaption"
+        />
+    <EditText
+        android:id="@+id/etNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password (Min. 4 characters)"
+        android:textColorHint="#48000000"
+        android:background="@drawable/edittextround"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#000"
+
+        />
+    <EditText
+        android:id="@+id/etNewPassConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColorHint="#48000000"
+        android:background="@drawable/edittextround"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#000"
+
+        />
+    <Button
+        android:id="@+id/btnNextForget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/round_button"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAllCaps="false"
+
+        />
+
+</LinearLayout>

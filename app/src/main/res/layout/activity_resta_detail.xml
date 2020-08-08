@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RestaDetailActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+            android:id="@+id/txtMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose from menu listed below"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/toolbar"/>
+        <ImageView
+            android:id="@+id/imgFavtCart"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_favt"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentRight="true"/>
+    <RelativeLayout
+        android:id="@+id/rlRecy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgFavtCart">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnProccedtoCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed To Cart"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:background="@drawable/round_button"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textAllCaps="false"
+        android:elevation="5dp"
+        />
+    <RelativeLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

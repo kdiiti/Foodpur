@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Foodpur</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="home">Home</string>
+    <string name="profile">My Profile</string>
+    <string name="favtRestra">Favourite Restraunts</string>
+    <string name="faq">FAQs</string>
+    <string name="logOut">Log out</string>
+    <string name="mobileno">MobileNo</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="preferences_file_name">Login Preferences</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Forgot Password</string>
+</resources>

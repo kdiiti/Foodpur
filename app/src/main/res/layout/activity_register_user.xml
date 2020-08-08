@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterUser"
+    android:orientation="vertical"
+    android:background="@color/colorFood">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_person"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="5dp"
+        android:hint="Name(Min. 3 Characters)"
+        android:textColorHint="#48000000"
+        android:inputType="text"
+        android:textColor="#000"
+        android:background="@drawable/edittextround"
+
+        android:padding="5dp"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/etEmail"
+        android:drawableLeft="@drawable/ic_mail"
+        android:textColor="#000"
+        android:drawablePadding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email Address"
+        android:textColorHint="#48000000"
+        android:background="@drawable/edittextround"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/etMobileRegister"
+        android:drawableLeft="@drawable/person_ic"
+        android:drawablePadding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile No."
+        android:textColor="#000"
+        android:textColorHint="#48000000"
+        android:background="@drawable/edittextround"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:inputType="phone"
+        android:maxLength="10"
+
+        />
+    <EditText
+        android:id="@+id/etDeliveryAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="5dp"
+        android:textColor="#000"
+        android:hint="Enter Delivery Address"
+        android:textColorHint="#48000000"
+        android:background="@drawable/edittextround"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/etPassRegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="5dp"
+        android:hint="Enter Password"
+        android:textColorHint="#48000000"
+        android:background="@drawable/edittextround"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:padding="5dp"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/etCnfPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="5dp"
+        android:textColor="#000"
+        android:hint="Confirm Password"
+        android:textColorHint="#48000000"
+        android:background="@drawable/edittextround"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30sp"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#fff"
+        android:capitalize="sentences"
+        />
+
+</LinearLayout>

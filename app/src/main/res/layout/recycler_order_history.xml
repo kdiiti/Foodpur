@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+<TextView
+    android:id="@+id/txtRestraNameHistory"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Restaurant Name"
+    android:textColor="#000"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    />
+    <TextView
+        android:id="@+id/txtDateHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="06/08/2020"
+        android:layout_alignParentRight="true"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        />
+    <View
+        android:id="@+id/dash"
+        android:layout_width="15dp"
+        android:layout_height="4dp"
+        android:background="@color/colorAccent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/txtDateHistory"
+        android:layout_marginTop="27dp"/>
+
+    <TextView
+        android:id="@+id/txtFoodNameHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/dash"
+        android:text="Name Of Food"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+
+        android:textColor="#000"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/txtPriceHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Price"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="20dp"
+        android:textSize="14sp"
+        android:textColor="#000"/>
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ConfirmActivity"
+    android:background="@color/colorFood">
+<ImageView
+    android:id="@+id/imgTick"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="200dp"
+    android:src="@drawable/ic_correct"
+   android:background="#fff"/>
+    <TextView
+        android:id="@+id/txtOrderConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your order is successfully placed"
+        android:layout_below="@id/imgTick"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        />
+
+<Button
+    android:id="@+id/btnGoToHome"
+    android:layout_width="110dp"
+    android:layout_height="60dp"
+    android:text="Ok"
+    android:layout_below="@id/txtOrderConfirm"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="40dp"
+    android:background="@drawable/round_button"
+    android:textColor="#fff"
+    android:textSize="18sp"
+    />
+
+</RelativeLayout>
